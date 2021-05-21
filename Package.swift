@@ -7,7 +7,7 @@ let package = Package(
     name: "CustomCalender",
     
     platforms: [
-         .iOS(.v14),
+        .macOS(.v10_15), .iOS(.v14), .tvOS(.v14)
     ],
     
     products: [
@@ -20,7 +20,7 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
    
-//            .package(path: "../"),
+           // .package(url: "https://github.com/dinkerkis/CustomCalender.git", from: "1.0.0"),
         ],
 
     targets: [
