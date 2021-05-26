@@ -1,0 +1,11 @@
+framework module CustomCalender {
+  umbrella header "CustomCalender.h"
+
+  export *
+  module * { export * }
+}
+
+module CustomCalender.Swift {
+    header "CustomCalender-Swift.h"
+    requires objc
+}
