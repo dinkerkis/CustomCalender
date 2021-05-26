@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CustomCalender",
+        "repositoryURL": "https://github.com/dinkerkis/CustomCalender.git",
+        "state": {
+          "branch": "main",
+          "revision": "a97bd866c42f3d0ecc8be3e0dc3421d15e5c6978",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

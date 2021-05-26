@@ -3,18 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA31C3AB265E1C790074E346 /* CustomCalender in Frameworks */ = {isa = PBXBuildFile; productRef = DA31C3AA265E1C790074E346 /* CustomCalender */; };
 		DA87B17D2656342F00F96847 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B17C2656342F00F96847 /* AppDelegate.swift */; };
 		DA87B17F2656342F00F96847 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B17E2656342F00F96847 /* SceneDelegate.swift */; };
-		DA87B1812656342F00F96847 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B1802656342F00F96847 /* ViewController.swift */; };
-		DA87B1842656342F00F96847 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA87B1822656342F00F96847 /* Main.storyboard */; };
 		DA87B1862656343200F96847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA87B1852656343200F96847 /* Assets.xcassets */; };
 		DA87B1892656343200F96847 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA87B1872656343200F96847 /* LaunchScreen.storyboard */; };
 		DA87B1942656343200F96847 /* CustomCalenderExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B1932656343200F96847 /* CustomCalenderExampleTests.swift */; };
 		DA87B19F2656343200F96847 /* CustomCalenderExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B19E2656343200F96847 /* CustomCalenderExampleUITests.swift */; };
+		DA87B1B02656348800F96847 /* String+Truncate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B1AF2656348800F96847 /* String+Truncate.swift */; };
+		DA87B1B5265634D800F96847 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B1B4265634D800F96847 /* ListViewController.swift */; };
+		DA87B1BA265655DC00F96847 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B1B9265655DC00F96847 /* ListItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA4711AA2657EE68001A604F /* CustomCalender.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CustomCalender.xcframework; path = ../CustomCalender/build/CustomCalender.xcframework; sourceTree = "<group>"; };
 		DA87B1792656342F00F96847 /* CustomCalenderExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCalenderExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA87B17C2656342F00F96847 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA87B17E2656342F00F96847 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DA87B1802656342F00F96847 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DA87B1832656342F00F96847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA87B1852656343200F96847 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA87B1882656343200F96847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA87B18A2656343200F96847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		DA87B19A2656343200F96847 /* CustomCalenderExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCalenderExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA87B19E2656343200F96847 /* CustomCalenderExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCalenderExampleUITests.swift; sourceTree = "<group>"; };
 		DA87B1A02656343200F96847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA87B1AF2656348800F96847 /* String+Truncate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Truncate.swift"; sourceTree = "<group>"; };
+		DA87B1B4265634D800F96847 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		DA87B1B9265655DC00F96847 /* ListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA31C3AB265E1C790074E346 /* CustomCalender in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +88,7 @@
 				DA87B1922656343200F96847 /* CustomCalenderExampleTests */,
 				DA87B19D2656343200F96847 /* CustomCalenderExampleUITests */,
 				DA87B17A2656342F00F96847 /* Products */,
+				DAF3DD5726565D530052EA8D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +107,9 @@
 			children = (
 				DA87B17C2656342F00F96847 /* AppDelegate.swift */,
 				DA87B17E2656342F00F96847 /* SceneDelegate.swift */,
-				DA87B1802656342F00F96847 /* ViewController.swift */,
-				DA87B1822656342F00F96847 /* Main.storyboard */,
+				DA87B1B4265634D800F96847 /* ListViewController.swift */,
+				DA87B1B9265655DC00F96847 /* ListItem.swift */,
+				DA87B1AF2656348800F96847 /* String+Truncate.swift */,
 				DA87B1852656343200F96847 /* Assets.xcassets */,
 				DA87B1872656343200F96847 /* LaunchScreen.storyboard */,
 				DA87B18A2656343200F96847 /* Info.plist */,
@@ -128,6 +135,14 @@
 			path = CustomCalenderExampleUITests;
 			sourceTree = "<group>";
 		};
+		DAF3DD5726565D530052EA8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA4711AA2657EE68001A604F /* CustomCalender.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +159,9 @@
 			dependencies = (
 			);
 			name = CustomCalenderExample;
+			packageProductDependencies = (
+				DA31C3AA265E1C790074E346 /* CustomCalender */,
+			);
 			productName = CustomCalenderExample;
 			productReference = DA87B1792656342F00F96847 /* CustomCalenderExample.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +233,9 @@
 				Base,
 			);
 			mainGroup = DA87B1702656342F00F96847;
+			packageReferences = (
+				DA31C3A9265E1C790074E346 /* XCRemoteSwiftPackageReference "CustomCalender" */,
+			);
 			productRefGroup = DA87B17A2656342F00F96847 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +254,6 @@
 			files = (
 				DA87B1892656343200F96847 /* LaunchScreen.storyboard in Resources */,
 				DA87B1862656343200F96847 /* Assets.xcassets in Resources */,
-				DA87B1842656342F00F96847 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +278,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA87B1812656342F00F96847 /* ViewController.swift in Sources */,
+				DA87B1B5265634D800F96847 /* ListViewController.swift in Sources */,
+				DA87B1BA265655DC00F96847 /* ListItem.swift in Sources */,
+				DA87B1B02656348800F96847 /* String+Truncate.swift in Sources */,
 				DA87B17D2656342F00F96847 /* AppDelegate.swift in Sources */,
 				DA87B17F2656342F00F96847 /* SceneDelegate.swift in Sources */,
 			);
@@ -296,14 +318,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DA87B1822656342F00F96847 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DA87B1832656342F00F96847 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DA87B1872656343200F96847 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,6 +451,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = T5DY39F2BR;
 				INFOPLIST_FILE = CustomCalenderExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -456,6 +471,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = T5DY39F2BR;
 				INFOPLIST_FILE = CustomCalenderExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -593,6 +609,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DA31C3A9265E1C790074E346 /* XCRemoteSwiftPackageReference "CustomCalender" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dinkerkis/CustomCalender.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DA31C3AA265E1C790074E346 /* CustomCalender */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA31C3A9265E1C790074E346 /* XCRemoteSwiftPackageReference "CustomCalender" */;
+			productName = CustomCalender;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DA87B1712656342F00F96847 /* Project object */;
 }
